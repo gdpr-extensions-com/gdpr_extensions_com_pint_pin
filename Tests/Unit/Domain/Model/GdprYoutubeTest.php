@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestPin\Tests\Unit\Domain\Model;
+namespace GdprExtensionsCom\GdprExtensionsComPintPin\Tests\Unit\Domain\Model;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use TYPO3\TestingFramework\Core\AccessibleObjectInterface;
@@ -14,7 +14,7 @@ use TYPO3\TestingFramework\Core\Unit\UnitTestCase;
 class gdprpinterestTest extends UnitTestCase
 {
     /**
-     * @var \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\gdprpinterest|MockObject|AccessibleObjectInterface
+     * @var \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\gdprpinterest|MockObject|AccessibleObjectInterface
      */
     protected $subject;
 
@@ -23,7 +23,7 @@ class gdprpinterestTest extends UnitTestCase
         parent::setUp();
 
         $this->subject = $this->getAccessibleMock(
-            \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\gdprpinterest::class,
+            \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\gdprpinterest::class,
             ['dummy']
         );
     }

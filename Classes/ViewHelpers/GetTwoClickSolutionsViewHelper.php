@@ -1,8 +1,8 @@
 <?php
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestPin\ViewHelpers;
+namespace GdprExtensionsCom\GdprExtensionsComPintPin\ViewHelpers;
 
-use GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Repository\GdprManagerRepository;
+use GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Repository\GdprManagerRepository;
 use TYPO3\CMS\Core\Database\Connection;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Package\PackageManager;

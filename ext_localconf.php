@@ -3,25 +3,25 @@ defined('TYPO3') || die();
 
 (static function() {
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-        'GdprExtensionsComPinterestPin',
+        'GdprExtensionsComPintPin',
         'gdprpinterestpin',
         [
-            \GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\GdprPinterestController::class => 'index'
+            \GdprExtensionsCom\GdprExtensionsComPintPin\Controller\GdprPinterestController::class => 'index'
         ],
         // non-cacheable actions
         [
-            \GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\GdprPinterestController::class => '',
-            \GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\GdprManagerController::class => 'create, update, delete'
+            \GdprExtensionsCom\GdprExtensionsComPintPin\Controller\GdprPinterestController::class => '',
+            \GdprExtensionsCom\GdprExtensionsComPintPin\Controller\GdprManagerController::class => 'create, update, delete'
         ],
         \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
     );
 
     // register plugin for cookie widget
     \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-        'GdprExtensionsComPinterestPin',
+        'GdprExtensionsComPintPin',
         'gdprcookiewidget',
         [
-            \GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\GdprCookieWidgetController::class => 'index'
+            \GdprExtensionsCom\GdprExtensionsComPintPin\Controller\GdprCookieWidgetController::class => 'index'
         ],
         // non-cacheable actions
         [],
@@ -33,12 +33,12 @@ defined('TYPO3') || die();
             wizards.newContentElement.wizardItems.plugins {
                 elements {
                     gdprcookiewidget {
-                        iconIdentifier = gdpr_extensions_com_pinterest_pin-plugin-gdprpinterestpin
+                        iconIdentifier = gdpr_extensions_com_pint_pin-plugin-gdprpinterestpin
                         title = cookie
-                        description = LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.description
+                        description = LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.description
                         tt_content_defValues {
                             CType = list
-                            list_type = gdprextensionscompinterestpin_gdprcookiewidget
+                            list_type = gdprextensionscompintpin_gdprcookiewidget
                         }
                     }
                 }
@@ -49,7 +49,7 @@ defined('TYPO3') || die();
     // wizards
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
         'mod.wizards.newContentElement.wizardItems {
-               gdpr.header = LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.name.tab
+               gdpr.header = LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.name.tab
         }'
     );
 
@@ -58,11 +58,11 @@ defined('TYPO3') || die();
             wizards.newContentElement.wizardItems.gdpr {
                 elements {
                     gdprpinterestpin {
-                        iconIdentifier = gdpr_extensions_com_pinterest_pin-plugin-gdprpinterestpin
-                        title = LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.name
-                        description = LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.description
+                        iconIdentifier = gdpr_extensions_com_pint_pin-plugin-gdprpinterestpin
+                        title = LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.name
+                        description = LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.description
                         tt_content_defValues {
-                            CType = gdprextensionscompinterestpin_gdprpinterestpin
+                            CType = gdprextensionscompintpin_gdprpinterestpin
                         }
                     }
                 }

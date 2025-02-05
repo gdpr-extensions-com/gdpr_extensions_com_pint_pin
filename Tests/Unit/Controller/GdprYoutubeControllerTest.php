@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestPin\Tests\Unit\Controller;
+namespace GdprExtensionsCom\GdprExtensionsComPintPin\Tests\Unit\Controller;
 
 use PHPUnit\Framework\MockObject\MockObject;
 use TYPO3\TestingFramework\Core\AccessibleObjectInterface;
@@ -15,14 +15,14 @@ use TYPO3Fluid\Fluid\View\ViewInterface;
 class gdprpinterestControllerTest extends UnitTestCase
 {
     /**
-     * @var \GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\gdprpinterestController|MockObject|AccessibleObjectInterface
+     * @var \GdprExtensionsCom\GdprExtensionsComPintPin\Controller\gdprpinterestController|MockObject|AccessibleObjectInterface
      */
     protected $subject;
 
     protected function setUp(): void
     {
         parent::setUp();
-        $this->subject = $this->getMockBuilder($this->buildAccessibleProxy(\GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller\gdprpinterestController::class))
+        $this->subject = $this->getMockBuilder($this->buildAccessibleProxy(\GdprExtensionsCom\GdprExtensionsComPintPin\Controller\gdprpinterestController::class))
             ->onlyMethods(['redirect', 'forward', 'addFlashMessage'])
             ->disableOriginalConstructor()
             ->getMock();

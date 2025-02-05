@@ -218,9 +218,9 @@
             "targetVersion": "11.5.0-11.5.99",
             "version": "1.0.0"
         },
-        "extensionKey": "gdpr_extensions_com_pinterest_pin",
-        "name": "gdpr-extensions-com-pinterest-pin-2clicksolution",
-        "originalExtensionKey": "gdpr_extensions_com_pinterest_pin",
+        "extensionKey": "gdpr_extensions_com_pint_pin",
+        "name": "gdpr-extensions-com-pint-pin-2clicksolution",
+        "originalExtensionKey": "gdpr_extensions_com_pint_pin",
         "originalVendorName": "Gdpr",
         "persons": [],
         "plugins": [

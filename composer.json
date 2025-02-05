@@ -1,5 +1,5 @@
 {
-  "name": "gdpr-extensions-com/gdpr-extensions-com-pinterest-pin",
+  "name": "gdpr-extensions-com/gdpr-extensions-com-pint-pin",
   "type": "typo3-cms-extension",
   "description": "A TYPO3 extension for Pinterest Pin integration with GDPR compliance.",
   "version": "1.0.0",
@@ -13,16 +13,16 @@
   },
   "autoload": {
     "psr-4": {
-      "GdprExtensionsCom\\GdprExtensionsComPinterestPin\\": "Classes"
+      "GdprExtensionsCom\\GdprExtensionsComPintPin\\": "Classes"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "GdprExtensionsCom\\GdprExtensionsComPinterestPin\\Tests\\": "Tests"
+      "GdprExtensionsCom\\GdprExtensionsComPintPin\\Tests\\": "Tests"
     }
   },
   "replace": {
-    "typo3-ter/gdpr-extensions-com-pinterest-pin": "self.version"
+    "typo3-ter/gdpr-extensions-com-pint-pin": "self.version"
   },
   "config": {
     "vendor-dir": ".Build/vendor",

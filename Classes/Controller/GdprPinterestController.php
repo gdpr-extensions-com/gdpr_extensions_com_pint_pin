@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestPin\Controller;
+namespace GdprExtensionsCom\GdprExtensionsComPintPin\Controller;
 
 
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 /**
- * This file is part of the "gdpr-extensions-com-pinterest-pin" Extension for TYPO3 CMS.
+ * This file is part of the "gdpr-extensions-com-pint-pin" Extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
@@ -27,7 +27,7 @@ class GdprPinterestController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
     /**
      * gdprManagerRepository
      *
-     * @var \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Repository\GdprManagerRepository
+     * @var \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Repository\GdprManagerRepository
      */
 
     protected $gdprManagerRepository = null;
@@ -50,9 +50,9 @@ class GdprPinterestController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionCo
     }
 
     /**
-     * @param \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Repository\GdprManagerRepository $gdprManagerRepository
+     * @param \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Repository\GdprManagerRepository $gdprManagerRepository
      */
-    public function injectGdprManagerRepository(\GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Repository\GdprManagerRepository $gdprManagerRepository)
+    public function injectGdprManagerRepository(\GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Repository\GdprManagerRepository $gdprManagerRepository)
     {
         $this->gdprManagerRepository = $gdprManagerRepository;
     }

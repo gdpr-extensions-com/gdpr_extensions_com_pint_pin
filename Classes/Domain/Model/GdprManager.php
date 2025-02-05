@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model;
+namespace GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model;
 
 
 /**
- * This file is part of the "gdpr-extensions-com-pinterest-pin" Extension for TYPO3 CMS.
+ * This file is part of the "gdpr-extensions-com-pint-pin" Extension for TYPO3 CMS.
  *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
@@ -117,7 +117,7 @@ class GdprManager extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * locations
      *
-     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\MapLocation>
+     * @var \TYPO3\CMS\Extbase\Persistence\ObjectStorage<\GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\MapLocation>
      * @TYPO3\CMS\Extbase\Annotation\ORM\Cascade("remove")
      */
     protected $locations = null;
@@ -164,10 +164,10 @@ class GdprManager extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Adds a MapLocation
      *
-     * @param \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\MapLocation $location
+     * @param \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\MapLocation $location
      * @return void
      */
-    public function addLocation(\GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\MapLocation $location)
+    public function addLocation(\GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\MapLocation $location)
     {
         $this->locations->attach($location);
     }
@@ -175,10 +175,10 @@ class GdprManager extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity
     /**
      * Removes a MapLocation
      *
-     * @param \GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\MapLocation $locationToRemove The MapLocation to be removed
+     * @param \GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\MapLocation $locationToRemove The MapLocation to be removed
      * @return void
      */
-    public function removeLocation(\GdprExtensionsCom\GdprExtensionsComPinterestPin\Domain\Model\MapLocation $locationToRemove)
+    public function removeLocation(\GdprExtensionsCom\GdprExtensionsComPintPin\Domain\Model\MapLocation $locationToRemove)
     {
         $this->locations->detach($locationToRemove);
     }

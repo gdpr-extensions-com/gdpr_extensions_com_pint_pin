@@ -3,7 +3,7 @@ defined('TYPO3') || die();
 
 $frontendLanguageFilePrefix = 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:';
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::registerPlugin(
-    'GdprExtensionsComPinterestPin',
+    'GdprExtensionsComPintPin',
     'gdprpinterestpin',
     'PinterestPin'
 );
@@ -11,8 +11,8 @@ $frontendLanguageFilePrefix = 'LLL:EXT:frontend/Resources/Private/Language/local
 $fields = [
     'gdpr_pinterest_pin_url' => [
         'exclude' => true,
-        'label' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.gdpr_vid_url',
-        'description' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.gdpr_vid_url.description',
+        'label' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.gdpr_vid_url',
+        'description' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.gdpr_vid_url.description',
         'config' => [
             'type' => 'input',
             'renderType' => 'inputLink',
@@ -21,8 +21,8 @@ $fields = [
     ],
     'scale_pin_height' => [
         'exclude' => true,
-        'label' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.scale_pin_height',
-        'description' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.scale_pin_height.description',
+        'label' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.scale_pin_height',
+        'description' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.scale_pin_height.description',
         'config' => [
             'type' => 'input',
             'renderType' => 'input'
@@ -30,8 +30,8 @@ $fields = [
     ],
     'scale_pin_width' => [
         'exclude' => true,
-        'label' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pinterest_pin_gdprpinterest.scale_pin_width',
-        'description' => 'LLL:EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.scale_pin_width.description',
+        'label' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_pint_pin_gdprpinterest.scale_pin_width',
+        'description' => 'LLL:EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_db.xlf:tx_gdpr_extensions_com_tiktik_gdprpinterest.scale_pin_width.description',
         'config' => [
             'type' => 'input',
             'renderType' => 'input'
@@ -42,7 +42,7 @@ $fields = [
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tt_content', $fields);
 
-$GLOBALS['TCA']['tt_content']['types']['gdprextensionscompinterestpin_gdprpinterestpin'] = [
+$GLOBALS['TCA']['tt_content']['types']['gdprextensionscompintpin_gdprpinterestpin'] = [
     'showitem' => '
                 --palette--;' . $frontendLanguageFilePrefix . 'palette.general;general,
                 gdpr_pinterest_pin_url,scale_pin_width,scale_pin_height,

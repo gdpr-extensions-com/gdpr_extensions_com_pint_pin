@@ -1,26 +1,26 @@
-plugin.tx_gdprextensionscompinterestpin_gdprpinterestpin {
+plugin.tx_gdprextensionscompintpin_gdprpinterestpin {
     view {
-        # cat=plugin.tx_gdprextensionscompinterestpin_gdprpinterest/file; type=string; label=Path to template root (FE)
-        templateRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Templates/
-        # cat=plugin.tx_gdprextensionscompinterestpin_gdprpinterest/file; type=string; label=Path to template partials (FE)
-        partialRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Partials/
-        # cat=plugin.tx_gdprextensionscompinterestpin_gdprpinterest/file; type=string; label=Path to template layouts (FE)
-        layoutRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Layouts/
+        # cat=plugin.tx_gdprextensionscompintpin_gdprpinterest/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Templates/
+        # cat=plugin.tx_gdprextensionscompintpin_gdprpinterest/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Partials/
+        # cat=plugin.tx_gdprextensionscompintpin_gdprpinterest/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Layouts/
     }
     persistence {
-        # cat=plugin.tx_gdprextensionscompinterestpin_gdprpinterest//a; type=string; label=Default storage PID
+        # cat=plugin.tx_gdprextensionscompintpin_gdprpinterest//a; type=string; label=Default storage PID
         storagePid =
     }
 }
 
-module.tx_gdprextensionscompinterestpin_gdprmanager {
+module.tx_gdprextensionscompintpin_gdprmanager {
     view {
-        # cat=module.tx_gdprextensionscompinterestpin_gdprmanager/file; type=string; label=Path to template root (BE)
-        templateRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Backend/Templates/
-        # cat=module.tx_gdprextensionscompinterestpin_gdprmanager/file; type=string; label=Path to template partials (BE)
-        partialRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Backend/Partials/
-        # cat=module.tx_gdprextensionscompinterestpin_gdprmanager/file; type=string; label=Path to template layouts (BE)
-        layoutRootPath = EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Backend/Layouts/
+        # cat=module.tx_gdprextensionscompintpin_gdprmanager/file; type=string; label=Path to template root (BE)
+        templateRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Backend/Templates/
+        # cat=module.tx_gdprextensionscompintpin_gdprmanager/file; type=string; label=Path to template partials (BE)
+        partialRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Backend/Partials/
+        # cat=module.tx_gdprextensionscompintpin_gdprmanager/file; type=string; label=Path to template layouts (BE)
+        layoutRootPath = EXT:gdpr_extensions_com_pint_pin/Resources/Private/Backend/Layouts/
     }
     persistence {
         # cat=module.tx_gdprextensionscomyoutube_gdprmanager//a; type=string; label=Default storage PID

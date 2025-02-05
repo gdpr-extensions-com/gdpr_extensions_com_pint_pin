@@ -1,51 +1,73 @@
 # GDPR-Extensions-com - Pinterest Pin 2xClick Solution
 
-Add Pinterest Pin to your website and stay GDPR compliant! Your website viewers will be able to manage their cookie preferences and view the content only if consented.
+## Contributors
+- gdprextensionscom
 
-Stay GDPR compliant when your website is scanned by any Cookie or GDPR Scanner!
+## Tags
+- Pinterest, Privacy, GDPR, Compliance
 
-## Overview
+## Requirements
+- **TYPO3 Version**: 11.5 or higher
+- **PHP Version**: 8.1 or higher
+- **Stable Tag**: 1.0.1
+- **License**: GPLv2 or later
+- **License URI**:  https://www.gnu.org/licenses/gpl-2.0.html
 
-**GDPR-Extensions-com - Pinterest Pin 2xClick Solution** allows you to add content elements and as many Pinterest Pin as you want on your website without being flagged on cookie scanners!
+## Short Description
+Embed Pinterest Pins on your TYPO3 website while staying fully GDPR compliant. The **Pinterest Pin Widget 2xClick Solution** ensures that no Pinterest cookies or tracking scripts load until users explicitly consent.
 
-This extension works in parallel with our GDPR-Extensions.com Consent Manager, where your website viewer can update their cookie preferences any time!
+## Description
+The **Pinterest Pin Widget 2xClick Solution** by GDPR-Extensions.com enables TYPO3 site owners to integrate Pinterest Pins while complying with GDPR regulations. This extension ensures that Pinterest does not load cookies or collect user data until visitors have given explicit consent.
+**Key Features:**
+- **GDPR-Compliant Pinterest Embeds** – No cookies or tracking until user consent is granted.
+- **Customizable Content Masking** – Display custom messages, colors, or images before consent is given.
+- **Seamless TYPO3 Integration** – Easily add Pinterest Pins to your website.
+- **Works with the GDPR Consent Manager** – Full control over cookie preferences.
+- **Optimized for Performance** – Lightweight and fast-loading.
 
-## Without GDPR-Extensions.com Consent Manager
+## Installation
+1. Download the extension from the TYPO3 Extension Repository.
+2. Upload and install it via the TYPO3 Extension Manager.
+3. Add the **Pinterest Pin** content element to a page.
+4. Enter the Pinterest Pin ID in the content element configuration.
+5. Customize the content masking (color, text, image) to match your design.
+6. Save changes and publish the page.
 
-- The Pinterest cookie will not be created, and the user will not be able to view the pin until they consent to the content mask that you style and hides the pin.
-- Once the user has consented, they are able to view the Pinterest Pin, the cookie is created, and the default session duration is 30 days.
-- The user will not be able to update their cookie preferences, and their data will be saved until the session has expired.
+## How to Use
+1. **Ensure You Have an Existing Pinterest Pin**  
+   - The user must have an existing Pinterest Pin they want to embed.  
+   - Copy the URL of the Pin.  
+2. **Install the Plugin on Your TYPO3 Project**  
+   - Install and activate the Pinterest Pin Widget 2xClick Solution from the TYPO3 Extension Repository.  
+3. **Customize the Content Mask**  
+   - Navigate to the plugin customization page in TYPO3 settings. 
+   - Customize the placeholder appearance using text, colors, or images.
+4. **Add the Pin Widget to a Page**  
+   - Visit the page where you want to display the Pinterest Pin.
+   - Add the Pinterest Pin content element to the page.
+   - Paste the Pinterest Pin URL into the content element settings.
+5. **Publish the Page** 
+ - Save changes and publish the page for the Pinterest Pin to appear.
+ - The widget will only load Pinterest content after the user gives consent.
+6. **For a Complete Solution, Install the GDPR Consent Manager** 
+  - To allow users to manage their consent preferences at any time, install the GDPR Consent Manager.
+  - This enables users to opt in or out of Pinterest tracking at any time.
 
-## With GDPR-Extensions.com Consent Manager
+## FAQ
+**Does this extension store any user data?** No, the extension does not store any personal data. It simply prevents Pinterest content from loading until consent is given.
 
-- The GDPR-Extensions-com Consent Manager Typo3 extension is powered by the gdpr-extensions.com dashpin.
-- It scans your website and auto-detects cookies and external sources.
-- It provides you with a content element “Consent Manager” that you can add to your website where all cookies are listed and users can manage the Pinterest 2xClick cookie any time.
-- Website viewers will be able to view the Consent Manager anytime by clicking on the cookie widget which you can always customize its styling, language content, and position.
+**Do I need a Pinterest account?** Yes, you need a Pinterest account with a Pin you want to display.
 
-## How It Works
+**Can users revoke consent after enabling Pinterest Pins?** Yes, users can update their preferences anytime using the GDPR Consent Manager.
 
-1. **Install GDPR-Extensions-com - Pinterest Pin 2xClick Solution Typo3 Extension**
-    - Once the extension is installed successfully, a new tab will appear on your Typo3 project: “GDPR-Extensions-Com Admin”.
-    - You can view the extension customization settings.
+## Upgrade Notice  
 
-2. **Update Content**
-    - You can update the content heading, body, etc., that you want to show to your website viewers on the content mask hiding the Pinterest pin.
+### Version 1.0.0   
+- Initial release with full GDPR-compliant Pinterest Pin integration. 
 
-3. **Update Styling**
-    - You can also add additional styling to fit your website theme.
+### Version 1.0.1
+- Updated the extension logo and Improved and restyled the README.
 
-4. **Add Pinterest  Pin Content Element**
-    - Visit the page on your project where you want to show Pinterest pins.
-    - You should find a section “GDPR-Extensions-com”.
-    - Select “Pinterest”.
-    - Enter your Pinterest pin URL.
-    - Apply additional pin customization such as auto play, etc.
-    - Apply additional styling.
-    - Save and publish the page edits.
+## Contact
+For questions or support, reach out to us at support@gdpr-extensions.com.
 
-Enjoy GDPR Conform Pinterest Solution!
-
-## Additional Extensions
-
-Check out other extensions developed by GDPR-extensions.com to add Google, Bing Maps on your website, Google Reviews, Vimeo content, and more! Any cookie or GDPR scanners will not show your Pinterest content as an external source or detect any GDPR issues related to this content.

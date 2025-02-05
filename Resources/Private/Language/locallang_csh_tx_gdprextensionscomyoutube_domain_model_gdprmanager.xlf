@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-	<file source-language="en" datatype="plaintext" original="EXT:gdpr_extensions_com_pinterest_pin/Resources/Private/Language/locallang_csh_tx_gdprextensionscompinterestpin_domain_model_gdprmanager.xlf" date="2023-12-15T08:19:36Z" product-name="gdpr_extensions_com_pinterest_pin">
+	<file source-language="en" datatype="plaintext" original="EXT:gdpr_extensions_com_pint_pin/Resources/Private/Language/locallang_csh_tx_gdprextensionscompintpin_domain_model_gdprmanager.xlf" date="2023-12-15T08:19:36Z" product-name="gdpr_extensions_com_pint_pin">
 		<header/>
 		<body>
 			<trans-unit id="heading.description" resname="heading.description">
